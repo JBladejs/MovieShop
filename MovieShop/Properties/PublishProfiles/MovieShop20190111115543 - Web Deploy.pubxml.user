@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ten plik jest wykorzystywany przez proces publikowania/pakowania projektu sieci Web. Możesz dostosować zachowanie tego procesu
+ poprzez edycję tego pliku MSBuild. Aby dowiedzieć się więcej o tym działaniu, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdPqFS9xsEUeklN4J7vs0eAAAAAACAAAAAAAQZgAAAAEAACAAAACkXoxcuJPGlGeVvYZRhdyiZMtvCiJbjJtb3+QGzNriDwAAAAAOgAAAAAIAACAAAAC2RjTzL1Kp9G7gzrbI0TVFLZTrUYJ9+SiTTEV3RPJoNIAAAAC9camuqhI5abxFOLxotdu+4iSEnvkMs8ua36I6gFk26Juu+k2+UFMNEZxGfAgM6s8x0jWd1D0I6dzjnyZc8WFYi8r4MIFmdIs/FmByuJ9fFGHbQvbYNZzLohK2vQRt7Ttr96JV2Fz6dI2bdAqdll+z86s6PAElnTkvUkC6/rNXxUAAAADwmLvDfgaVY4ibT6iI5thhWfgIChd/b66hZhz27tMjbgb3MHyZLV/qni55o/vXsiyG0Q8ZhP/kr9cBUc2acNe+</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:plzwork20190111032334dbserver.database.windows.net,1433%3bInitial Catalog=MovieShop20190111115543_db%3bUser Id=JBladejs%40plzwork20190111032334dbserver%3bPassword=AWSACac12</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MovieShop.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:plzwork20190111032334dbserver.database.windows.net,1433%3bInitial Catalog=MovieShop20190111115543_db%3bUser Id=JBladejs%40plzwork20190111032334dbserver%3bPassword=AWSACac12</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
